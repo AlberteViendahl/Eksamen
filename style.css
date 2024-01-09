@@ -1,0 +1,333 @@
+/* --------------------------SKRIFTTYPER----------------------- */
+
+@font-face {
+    font-family:cinzeld;
+    src: url(../fonts/webfontkit-20231230-051236/cinzeld.woff2)
+}
+
+@font-face {
+    font-family:cinzel;
+    src: url(../fonts/webfontkit-20240102-132012/cinzel.woff2);
+}
+
+@font-face {
+    font-family:unna;
+    src: url(../fonts/unna.woff2);
+}
+
+/* -----------------------------SEMANTISK------------------------ */
+
+h1{
+    font-family:"cinzeld";
+    margin-left: 0px;
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+ h2{
+   margin-left: 30%;
+    margin-right: 10%; 
+    font-family:"cinzel";
+    margin-left: 0px;
+    list-style: none;
+    overflow: hidden;
+    margin: 10px;
+}
+
+h3{
+    font-family:"cinzel";
+}
+
+p{
+    font-family:"unna";
+    max-width: 50ch;
+    line-height: 1.5em;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.go_tilbage{
+    position: absolute;
+    right: 0;
+    top: 3%;
+}
+
+.ri{
+    padding-left: 20px;
+    padding-top: 30px;
+       }
+   
+   .ri2{
+       padding-left: 70px;
+       padding-top: 30px;
+       padding-right: 50px;
+   }
+/* ----------------------------BAGGRUNDE---------------------------- */
+
+.b1{
+    border-color: #EE9977;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.b3 {
+    border-color: #789183;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.b2 {
+    background-color: #c5ac94;
+}
+
+.b4 {
+    border-color: #6A81A4;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.b5{
+    border-style: solid;
+border-color: #C06C59;
+border-width: 5px;
+}
+
+.s1 {
+    border-color: #EE9977;
+    border-style: solid;
+    border-width: 5px;
+    padding-top: 6%;
+   padding-bottom: 6%;
+   padding-left: 3%;
+   padding-right: 3%;
+   margin: 10px;
+}
+
+.s2{
+    border-color: #789183;
+    border-style: solid;
+    border-width: 5px;
+    padding-top: 6%;
+   padding-bottom: 6%;
+   padding-left: 3%;
+   padding-right: 3%;
+   margin: 10px;
+}
+
+.s3{
+    border-color: #6A81A4;
+    border-style: solid;
+    border-width: 5px;
+    padding-top: 6%;
+   padding-bottom: 6%;
+   padding-left: 3%;
+   padding-right: 3%;
+   margin: 10px;
+}
+
+.s4{
+border-style: solid;
+border-color: #C06C59;
+border-width: 5px;
+padding-top: 6%;
+padding-bottom: 6%;
+padding-left: 3%;
+padding-right: 3%;
+margin: 10px;
+} 
+
+.s5{
+    background-color: #918068;
+    padding-top: 4%;
+   max-height: 410px;
+   padding-left: 3%;
+   margin-left: 30px;
+   max-width: 300px;
+   } 
+
+.s6{
+    background-color: #789183;
+    max-width: 400px;
+    max-height: 630px;
+    padding-left: 3px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.s7{
+    background-color: #EE9977;
+    max-width: 400px;
+    max-height: 600px;
+    padding-left: 3px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.s8{
+    background-color: #6A81A4;
+    max-width: 400px;
+    max-height: 600px;
+    padding-left: 3px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.s9{
+    background-color: #C06C59;
+    max-width: 400px;
+    max-height: 900px;
+    padding-left: 3px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+
+.hr{
+    background-color: rgb(0, 0, 0);
+    padding: 1px;
+    margin-top: 5%;
+    margin-bottom: 15px;
+    margin-left: -10px;
+    margin-right: 5%;
+}
+
+/* ---------------------------BILLEDER----------------------------- */
+
+img {max-width: 100%;
+    width:fit-content;
+    padding-top: 0px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.logo {
+    max-width: 5%;
+    margin: 1%;
+    display:flex;
+    justify-content: right;
+
+}
+
+.mig {
+    max-width: 380px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* -----------------------------LINKS---------------------------------- */
+ol {  
+        margin-left: 0;
+        list-style: none;
+        overflow: hidden;
+        font-size: 20px ;
+        margin-left: 0;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: left;
+        font-family: "unna";
+        font-size: 20px;
+    } 
+li{
+     padding-right: 20px;
+    }
+
+ul {
+        line-height: 3em;
+        max-width: 50ch;
+        font-size: 20px ;
+        margin-left: 0;
+        font-family: "unna";
+        font-size: 20px;
+    }
+
+a {
+        color: rgb(0, 0, 0);
+        margin-left: 5px; 
+        padding-left: 7px;
+        font-size: 17px;
+        padding: 20px;
+        font-size: 20px ;
+        margin-left: 0;
+        font-family: "unna";
+        font-size: 20px;
+    }
+    
+a:hover {
+        color: rgb(230, 193, 118);
+    }
+
+/* ------------------------BURGERMENU----------------------------------- */
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+    text-align: start;
+}
+
+.menu a:hover {
+    color: rgb(129, 46, 46);
+}
+
+.burger {
+    width: 30px;
+    height: 10px;
+    cursor: pointer;
+    right: 0;
+    position: absolute;
+    top: 2%;
+    margin-right: 1%;
+}
+
+.burger .line{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+    transition:  0.2s linear;
+}
+
+.burger {
+    display: none;
+}
+
+.menu{
+    display: none;
+}
+
+.burger{
+    display: block;
+    z-index: 2;
+}
+
+nav.active .menu {
+    display: block;
+    background-color: rgb(187, 186, 186);
+    position: absolute;
+    top: 50px;
+    right: 3px;
+    width: 160px;
+    z-index: 1;
+    text-align: left;
+}
+
+nav.active .menu li {
+    margin: 10px 10px;
+}
+
+nav.active .menu a {
+    font-size: 20px;
+    justify-content: center;
+}
